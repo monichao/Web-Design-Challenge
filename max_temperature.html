@@ -2,13 +2,15 @@
 
 <html>
 
+ 
+
 <head>
 
   <meta charset="utf-8" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Bootstrap Visualization Dashboard</title>
+  <title>Latitude VS Maximum Temperature</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,8 +21,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 
     crossorigin="anonymous">
-
-             
 
  
 
@@ -36,7 +36,7 @@
 
 <body>
 
-  <!-- Navbar -->
+  <!-- Navigation Section -->
 
   <div class="navigation">
 
@@ -68,7 +68,7 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
+              <a class="dropdown-item active" href="max_temperature.html">Max Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
@@ -102,7 +102,7 @@
 
   </div>
 
-  <!-- Content  -->
+  <!-- Content Section -->
 
   <div class="container">
 
@@ -112,22 +112,18 @@
 
         <!-- Left box  -->
 
-        <div class="box">
+        <div class="box" style="padding-bottom: 5px;">
 
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Max Temperature</h3>
 
           <hr>
 
-          <img src="temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <img src="temp.png" alt="Max Temperature Graph">
 
-          <p><h6></h6>The purpose of this project was to analyze how weather changes as you get closer to the equator
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-          </h6></p>
-          <p><h6>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-            latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and 
-              visualizations created as part of the analysis, as well as explanations and descriptions of any trends and 
-              correlations witnessed.
-          </h6></p>
+          <p>At the equator, weather appears warmer.
+
+          .</p>
+
         </div>
 
       </div>
@@ -154,7 +150,7 @@
 
                 <a href="max_temperature.html">
 
-                  <img class="panel" src="temp.png" alt="Max Temperature Image">
+                  <img class="panel active" src="temp.png" alt="Max Temperature Image">
 
                 </a>
 
@@ -216,7 +212,7 @@
 
   </div>
 
-  <!-- Footer  -->
+  <!-- Footer Section -->
 
   <footer>
 

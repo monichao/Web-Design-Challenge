@@ -2,13 +2,15 @@
 
 <html>
 
+ 
+
 <head>
 
   <meta charset="utf-8" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Bootstrap Visualization Dashboard</title>
+  <title>Latitude VS Wind Speed</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,15 +22,9 @@
 
     crossorigin="anonymous">
 
-             
-
- 
-
   <!--CSS Link-->
 
   <link rel="stylesheet" type="text/css" href="style.css">
-
- 
 
 </head>
 
@@ -36,7 +32,7 @@
 
 <body>
 
-  <!-- Navbar -->
+  <!-- Navigation Section -->
 
   <div class="navigation">
 
@@ -44,7 +40,7 @@
 
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
 
-      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -68,13 +64,13 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 
-              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item active" href="wind_speed.html">Wind Speed</a>
 
             </div>
 
@@ -102,7 +98,7 @@
 
   </div>
 
-  <!-- Content  -->
+  <!-- Content Section -->
 
   <div class="container">
 
@@ -114,21 +110,15 @@
 
         <div class="box">
 
-          <h3 class="title">Summary: Latitude vs. X</h3>
+          <h3 class="title">Wind Speed</h3>
 
           <hr>
 
-          <img src="temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <img src="speed.png" alt="Wind Speed Graph">
 
-          <p><h6></h6>The purpose of this project was to analyze how weather changes as you get closer to the equator
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-          </h6></p>
-          <p><h6>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-            latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and 
-              visualizations created as part of the analysis, as well as explanations and descriptions of any trends and 
-              correlations witnessed.
-          </h6></p>
-        </div>
+          <p>There seem to be increase in Wind Speed as we move away from the equator.</p>
+
+       </div>
 
       </div>
 
@@ -141,10 +131,6 @@
           <h5 class="title">Visualizations</h5>
 
           <hr>
-
- 
-
- 
 
           <div class="container">
 
@@ -172,8 +158,6 @@
 
             </div>
 
- 
-
             <div class="row" style="padding-bottom: 30px;">
 
               <div class="col-6">
@@ -186,27 +170,19 @@
 
               </div>
 
-              <div class="col-6">
+             <div class="col-6">
 
                 <a href="wind_speed.html">
 
-                  <img class="panel" src="speed.png" alt="Wind Speed Graph">
+                  <img class="panel active" src="speed.png" alt="Wind Speed Graph">
 
                 </a>
 
               </div>
 
- 
-
- 
-
             </div>
 
           </div>
-
- 
-
- 
 
         </div>
 
@@ -216,7 +192,7 @@
 
   </div>
 
-  <!-- Footer  -->
+  <!-- Footer Section -->
 
   <footer>
 
@@ -239,8 +215,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 
     crossorigin="anonymous"></script>
-
- 
 
 </body>
 

@@ -16,13 +16,11 @@ body{
 
 .navigation .navbar-brand{
 
-    color: white;
+    color:white;
 
     margin-left: 30px;
 
     padding: inherit;
-
-    font-weight: bold;
 
     background-color: white;
 
@@ -40,25 +38,25 @@ body{
 
 .active, .dropdown-menu .dropdown-item:active a:hover{
 
-    background-color:#E7E7E7;
+    background-color:#E7E7E7!important;
 
 }
 
 .dropdown-item{
 
-    color: #6D8092;
+    color: #6D8092 !important;
 
 }
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
 
-    background-color:#E7E7E7;
+    background-color:#E7E7E7 !important;
 
 }
 
 a{
 
-    color: #6D8092;
+    color: white;
 
     font-size: 15px;
 
@@ -66,7 +64,7 @@ a{
 
 .nav-link:hover{
 
-    background-color:#E7E7E7;
+    background-color:#E7E7E7 !important;
 
    }
 
@@ -74,7 +72,7 @@ a{
 
 .navbar-brand:hover{
 
-color: rgb(175, 175, 175);
+color: rgb(175, 175, 175) !important;
 
 }
 
@@ -82,9 +80,9 @@ color: rgb(175, 175, 175);
 
 img{
 
-    width:100%;
+    width:100% !important;
 
-    height:100%;
+    height:100% !important;
 
 }
 
@@ -100,9 +98,9 @@ img{
 
 .vizualization{
 
-    width:50%;
+    width:50% !important;
 
-    height:50%;
+    height:50% !important;
 
 }
 
@@ -112,7 +110,7 @@ img{
 
 .title{
 
-    color: white; 
+    color: #0BADA6; 
 
     font-family: Georgia, 'Tahoma', Times, serif;
 
@@ -144,9 +142,9 @@ font-size: 17px;
 
     padding: 10px 20px 15px;
 
-    color:black;
+    color: grey;
 
-    background-color: white;
+    background-color:white;
 
  
 
@@ -158,7 +156,7 @@ font-size: 17px;
 
     font-size: 15px;
 
-    border-top-color: green !important;
+    border-top-color: green;
 
 }
 
